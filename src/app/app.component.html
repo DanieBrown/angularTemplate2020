@@ -8,3 +8,13 @@
 
 <hr>
 <app-data-bound></app-data-bound>
+<hr>
+<div>
+  <button (click)="onDisplayDataClick()">Display Data</button>
+  <div *ngIf="displayData">The secret password is tuna
+    <li [ngClass]="{displayColor: displayCounter}" *ngFor="let time of timestamps">
+      {{time}}
+    </li>
+  </div>
+</div>
+
