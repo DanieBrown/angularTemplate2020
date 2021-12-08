@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+// This is a app component
 export class AppComponent {
   name = 'Max';
   displayData = false;
